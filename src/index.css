@@ -58,11 +58,53 @@ hr {
   overflow: hidden;
 }
 
+.img-fluid{
+  transition: all 0.3s ease 0s;
+  overflow: hidden;
+}
+
+/* .textalignhead{
+  text-align: left;
+  width: 70%;
+  margin-left: 50px;
+} */
 
 .card-container:hover{
   transform: scale(1.15);
 }
 
+.img-fluid:hover{
+  transform: scale(1.15);
+
+}
+
+
+
+.typingtext h2{
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .05em;
+  border-right: .1em solid orange; /* The typewriter cursor */
+  animation: 
+    typing 6.5s steps(30, end) infinite, /* infinite makes it keep looping */
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  0%, 100% { width: 0; border-right: .1em solid #4d7fdb; } /* Reset width at the start and end */
+  50% { width: 100%; border-right: .1em solid transparent; } /* Hide cursor during mid-animation */
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #4d7fdb; }
+}
+
+
+#skillheading{
+  font-size: 40px !important;
+}
 
 .contact_icons p:hover {
   color: #007cfb;

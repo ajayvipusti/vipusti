@@ -7,6 +7,7 @@ import about52 from "./assets/logo192.png";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import Footer from "./components/Footer";
 import Carouselcard from "./components/Carousel";
+import headerimg from '../src/assets/headimg.webp'
 
 function App() {
   const now = 100;
@@ -26,9 +27,9 @@ function App() {
           margin:'0px'
         }}
       >
-        <section className="col-md-6 my-auto" >
-          <div>
-            <h2 style={{ color: "#4d7fdb" }}>IT Services and Consulting</h2>
+        <section className="col-md-6 my-auto textalignhead"  >
+          <div className="typingtext">
+            <h2 style={{ color: "#4d7fdb", fontSize: '40px' }}>IT Services and Consulting</h2>
           </div>
           <div>
             <h1 className="fs-bold">Awesome IT Services </h1>
@@ -44,12 +45,16 @@ function App() {
           </div>
           <div></div>
         </section>
-        <section className="col-md-6">
+
+
+
+        <section className="col-md-6 h">
           <img
-            src="https://quomodothemes.website/html/antech/assets/images/hero-img/3.webp"
+            src={headerimg}
             height={440}
-            width={440}
+            width={500}
             className="img-fluid"
+            style={{borderRadius: "15px", margin: "30px 0 0 5px"}}
           />
         </section>
       </main>
@@ -69,7 +74,7 @@ function App() {
         </section>
         <section className="col-md-6 text-center">
           <div className="mt-5 mobile-view" >
-            <p style={{ color: "#6382bf" }} className="fs-4">
+            <p style={{ color: "#6382bf"  }} className="fs-4" id="skillheading">
               Our Technical Skill
             </p>
 
