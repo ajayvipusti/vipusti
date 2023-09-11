@@ -63,11 +63,7 @@ hr {
   overflow: hidden;
 }
 
-/* .textalignhead{
-  text-align: left;
-  width: 70%;
-  margin-left: 50px;
-} */
+
 
 .card-container:hover{
   transform: scale(1.15);
