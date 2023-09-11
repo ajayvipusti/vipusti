@@ -1,0 +1,170 @@
+.Project {
+  border: 2px solid rgb(230, 230, 241);
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px 20px rgb(248, 247, 247);
+  padding: 35px;
+}
+
+/* footer css */
+
+.footer_container {
+  background-color: black;
+}
+.footer_container_p {
+  color: #c7c7c7 !important;
+  font-size: 16px !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+}
+.social_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  color: #fff;
+}
+.social_icons span {
+  background-color: #fff !important;
+  color: #007cfb;
+  border-radius: 50%;
+  padding: 4px 8px;
+  width: 33px;
+  height: 33px;
+  margin-right: 30px;
+}
+.social_icons span:hover {
+  background-color: #007cfb !important;
+  color: #fff;
+}
+
+hr {
+  background-color: #fff !important;
+  color: #fff !important;
+  border-top: 2px solid #fff !important;
+}
+
+.footer-text {
+  margin: 30px 0px;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff !important;
+}
+
+.card-container{
+  transition: all 0.3s ease 0s;
+  overflow: hidden;
+}
+
+
+.card-container:hover{
+  transform: scale(1.15);
+}
+
+
+.contact_icons p:hover {
+  color: #007cfb;
+}
+.quick_links p a:hover {
+  color: #007cfb !important;
+}
+.contactus p:hover {
+  color: #007cfb !important;
+}
+
+.sticy_footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  padding-bottom: 20px;
+  font-weight: 600 !important;
+}
+.sticy_footer a,
+span {
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .sticy_footer {
+    flex-direction: column;
+  }
+}
+
+/* carousel css */
+
+.App {
+  background-color: #007cfb;
+  margin-top: 25px !important;
+}
+.carousel_text {
+  padding-top: 80px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.card-container {
+  padding: 30px;
+}
+.card-container:hover .card-title {
+  color: #007cfb;
+  transition: 0.5 ease-in-out;
+}
+
+.card_image {
+  height: 200px !important;
+}
+/* .card-body .card-logo-container{
+  position: relative;
+  width: 82px;
+  height: 82%;
+  background-color: #3d5670;
+  border-radius: 50%!important;
+  border: 5px solid #fff;
+  z-index: 9;
+ 
+} */
+.carousel-item {
+  display: flex;
+  flex-direction: row;
+}
+.card-body .card-logo {
+  position: relative;
+  background-color: #ddeeff;
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0px 6px 15px 2px rgba(0, 124, 251, 0.23);
+}
+.card-logo {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100px;
+  height: auto;
+  bottom: 0;
+  padding: 10px;
+}
+.card-title {
+  font-size: 24px !important;
+  text-align: center !important;
+}
+
+@media screen and (max-width:767px) {
+  .Project{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.mobile-view{
+  width: 80%;
+}
+@media screen and (max-width:767px) {
+  .mobile-view{
+    width: 100%;
+  }
+}
